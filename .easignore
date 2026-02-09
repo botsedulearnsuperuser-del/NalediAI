@@ -1,0 +1,118 @@
+# EAS Build ignore patterns
+# Each line is a pattern to exclude
+
+# Node modules - MUST be excluded
+node_modules
+**/node_modules
+node_modules/**
+**/node_modules/**
+
+# Expo cache
+.expo
+.expo-shared
+.expo/**
+.expo-shared/**
+
+# Git
+.git
+.git/**
+.gitignore
+
+# Android build files
+android/.gradle
+android/build
+android/app/build
+android/app/debug.keystore
+android/local.properties
+android/.gradle/**
+android/build/**
+android/app/build/**
+
+# Build artifacts
+*.apk
+*.aab
+build
+dist
+build/**
+dist/**
+
+# Logs
+*.log
+logs
+debug.log
+
+# Documentation (keep README)
+*.md
+!README.md
+
+# Scripts
+*.bat
+*.ps1
+*.sh
+build-apk.*
+build-clean.*
+
+# Database/SQL files
+*.sql
+supabase_schema.sql
+supabase
+supabase/**
+
+# Package lock
+package-lock.json
+
+# EAS cache
+.eas
+.eas/**
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Coverage and temp files
+coverage
+.nyc_output
+tmp
+temp
+*.tmp
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN
+
+# Exclude everything in parent directories (important!)
+../
+../*
+../../*
+../../../*
+
+# Exclude common project folders that might be in parent
+../learn-link-plaza-*
+../farmersconnect-*
+../agro-*
+../glamlink-*
+../official-gazette-*
+../wolt-*
+../react-native-*
+../chatface-*
+../gate-motion-*
+../gazette-text-*
+../story-weaver-*
+../daily-planner-*
+../ai-podcast-*
+../amazon-clone-*
+../agro-Demo-*
+../bwgovgazette-*
+../Tirelo-*
+../MMELE-*
+../files-*
+../p-*

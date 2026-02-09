@@ -1,0 +1,4 @@
+export const SUPABASE_URL = 'https://rtqejhmdtsxtyqjhpkkx.supabase.co';
+export const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ0cWVqaG1kdHN4dHlxamhwa2t4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjYzMDQ2NDYsImV4cCI6MjA4MTg4MDY0Nn0.KYItHQYH3gChNIyN5_ZNjXudQsMDDoA0FEq2DXRGphA';
+export const OPENROUTER_API_KEY = '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';
+export const GEMINI_API_KEY = 'AIzaSyBzdsA0hRYMhEF8sxWu7lNyw4ZhU1Mm_Js';
